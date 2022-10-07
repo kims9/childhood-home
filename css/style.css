@@ -1,5 +1,64 @@
+.frontdoor{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontleft{
+    position: relative;
+}
+
+.frontright{
+    position: relative;
+}
+
+
+.image-body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
 .container  img{
     display: block;
     margin: auto;
-    width: 50%;
+    height: 400px;
+}
+
+.container {
+    position: relative;
+}
+
+.top-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.top-img:hover {
+    opacity: 1;
+}
+
+.upstairs-imgs{
+    opacity: 0;
+    transition: all 0.7s ease;
+}
+
+.left-img{
+
+}
+.right-img{
+
+}
+.down-img{
+    
+}
+
+.upstairs-main:hover{
+    opacity: 1;
 }
